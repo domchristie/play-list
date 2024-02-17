@@ -21,7 +21,7 @@ The following HTML attributes are supported on the `<play-list>` element:
 Controls whether the next element will play when the current one finishes. Disable autoplay with `autoplay="false"`.
 
 ### `loop` (default: `false`)
-Controls whether to loop back round to the first element when the last one ends. Enable looping with `loop="true"`.
+Controls whether to loop back round to the first element when the last one ends. Enable looping with by adding an empty `loop` attribute, or with `loop="true"`.
 
 ## Properties
 The `<play-list>` element includes the following properties:
